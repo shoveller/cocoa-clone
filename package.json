@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/shoveller/cocoa-clone#readme",
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "sass": "^1.49.9"
   }
 }
