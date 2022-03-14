@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["index.scss"],"names":[],"mappings":"AAAQ;AACR;EACE;;;AAGF;EACE;EACA;;AACA;EACE;;AACA;EACE;;AAEF;EACE;EACA;;AAEF;EACE;EACA;EACA;;AAEF;EACE","file":"index.css"}
+{"version":3,"sourceRoot":"","sources":["index.scss","status-bar.scss"],"names":[],"mappings":"AAAQ;AACA;ACDR;EACE;EACA;EACA;;AACA;EACE;;AACA;EACE;;AAEF;EACE;EACA;;AAEF;EACE;EACA;EACA;;AAEF;EACE;;;ADfN;EACE","file":"index.css"}

@@ -1,27 +1,7 @@
+@import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "status-bar.scss";
+
 body {
   font-family: "Open Sans", sans-serif;
-}
-
-.status-bar {
-  display: flex;
-  justify-content: center;
-  &__column {
-    width: 33%;
-    &:first-child span {
-      margin-right: 5px;
-    }
-    &:nth-child(2) {
-      display: flex;
-      justify-content: center;
-    }
-    &:last-child {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-    }
-    .fa-battery-full {
-      margin: 0px 5px;
-    }
-  }
 }
