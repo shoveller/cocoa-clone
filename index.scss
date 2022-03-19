@@ -1,9 +1,11 @@
 @import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "variables.css";
 @import "status-bar.scss";
 
 body {
   font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 .welcome-header {
@@ -17,8 +19,36 @@ body {
     margin-bottom: 40px;
     font-size: 25px;
   }
+
   &__text {
     width: 60%;
     opacity: 0.7;
+  }
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+
+  & input:not([type="button"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-bottom-color .3s ease-in-out;
+  }
+
+  & input {
+    padding: 15px 0;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 25px;
+
+
+    &::placeholder {
+      color: rgba(0, 0, 0, 0.4);
+    }
+
+    &:focus {
+      border-color: var(--yellow);
+    }
   }
 }
