@@ -67,5 +67,17 @@ body {
 #login-form input:focus {
   border-color: var(--yellow);
 }
+#login-form input[type=button] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 5px;
+}
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}
 
 /*# sourceMappingURL=index.css.map */

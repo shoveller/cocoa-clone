@@ -51,4 +51,18 @@ body {
       border-color: var(--yellow);
     }
   }
+
+  & input[type="button"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 5px;
+  }
+
+  & a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+  }
 }
