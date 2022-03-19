@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["index.scss","components/status-bar.scss"],"names":[],"mappings":"AAAQ;AACA;AACA;AAEA;ACJR;EACE;EACA;EACA;;AACA;EACE;;AACA;EACE;;AAEF;EACE;EACA;;AAEF;EACE;EACA;EACA;;AAEF;EACE;;;ADbN;EACE;EACA","file":"index.css"}
+{"version":3,"sourceRoot":"","sources":["index.scss"],"names":[],"mappings":"AAAQ;AACA;AACA;AACA;AACA;AACA;AAER;EACE;EACA;EACA","file":"index.css"}
