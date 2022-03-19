@@ -17,4 +17,30 @@
   color: #2E363E;
 }
 
+.nav__btn {
+  position: relative;
+}
+
+.nav__notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.nav__notification--sm {
+  width: 5px;
+  height: 5px;
+  right: -3px;
+  top: -3px;
+}
+
 /*# sourceMappingURL=nav-bar.css.map */
