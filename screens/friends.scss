@@ -12,10 +12,19 @@
   }
 }
 
-.friends-screen {
+.friends-screen-main {
   padding: 0 var(--horizontal-space);
 }
 
 .friends-screen__channel-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0,0,0, 0.2);
+  padding: 15px 0;
+  color: rgba(0,0,0,0.2);
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
 }
