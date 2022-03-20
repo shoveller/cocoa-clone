@@ -1,0 +1,35 @@
+.user-component {
+  display: flex;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avartar {
+  width: 70px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.user-component__avartar--xl {
+  width: 80px;
+}
+
+.user-component__avartar--sm {
+  width: 50px;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.user-component__subtitle {
+  margin-top: 5px;
+  color: grey;
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=user-component.css.map */
