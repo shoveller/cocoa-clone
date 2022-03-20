@@ -1,112 +1,93 @@
 <!DOCTYPE html>
 <html lang="kr">
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>
-		<!DOCTYPE html> <html lang="kr"> <head> <meta charset="UTF-8" /> <meta
-		http-equiv="Content-Type" content="text/html;charset=UTF-8" /> <meta
-		name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Welcome to cocoa talk
-	</title>
-	<script
-		src="https://kit.fontawesome.com/69d3539192.js"
-		crossorigin="anonymous"
-	></script>
-	<link href="variables.css" rel="stylesheet" />
-	<link href="index.css" rel="stylesheet" />
-</head>
-<body>
-<div class="status-bar">
-	<div class="status-bar__column">
-		<span>No Service</span>
-		<i class="fa-solid fa-wifi"></i>
-	</div>
-	<div class="status-bar__column">
-		<span>18:43</span>
-	</div>
-	<div class="status-bar__column">
-		<span>110%</span>
-		<i class="fa-solid fa-battery-full fa-2x"></i>
-		<i class="fa-solid fa-bolt"></i>
-	</div>
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      <!DOCTYPE html> <html lang="kr"> <head> <meta charset="UTF-8" /> <meta
+      http-equiv="Content-Type" content="text/html;charset=UTF-8" /> <meta
+      name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Welcome to cocoa talk
+    </title>
+    <script
+      src="https://kit.fontawesome.com/69d3539192.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="variables.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-2x"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
 
-<header class="screen-header">
-	<h1 class="screen-header__title">Friends</h1>
-	<div class="screen-header__icons">
-		<span><i class="fas fa-search fa-lg"></i></span>
-		<span><i class="fas fa-music fa-lg"></i></span>
-		<span><i class="fas fa-cog fa-lg"></i></span>
-	</div>
-</header>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
 
-<a href="#" id="friends-display-link">
-	<i class="fas fa-info-circle"></i> Friend's Names Display
-	<i class="fas fa-chevron-right fa-xs"></i>
-</a>
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/1357198?v=4"
+            class="user-component__avartar user-component__avartar--xl"
+            alt=""
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <h6 class="user-component__subtitle">야호</h6>
+          </div>
+        </div>
+        <div class="user-component__column" style="flex-direction: column; justify-content: center;">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+    </main>
 
-<main class="friends-screen-main">
-	<div class="user-component">
-		<div class="user-component__column">
-			<img
-				src="https://avatars.githubusercontent.com/u/1357198?v=4"
-				class="user-component__avartar user-component__avartar--xl"
-				alt=""
-			/>
-			<div class="user-component__text">
-				<h4 class="user-component__title">Nicolas</h4>
-				<!--          <h6 class="user-component__subtitle">야호</h6>-->
-			</div>
-		</div>
-		<div class="user-component__column"></div>
-	</div>
-	<div class="friends-screen__channel">
-		<div class="friends-screen__channel-header">
-			<span>Channel</span>
-			<i class="fas fa-chevron-up fa-xs"></i>
-		</div>
-		<div class="user-component">
-			<div class="user-component__column">
-				<img
-					src="https://avatars.githubusercontent.com/u/1357198?v=4"
-					class="user-component__avartar user-component__avartar--sm"
-					alt=""
-				/>
-				<div class="user-component__text">
-					<h4 class="user-component__title user-component__title--not-bold">Nicolas</h4>
-				</div>
-			</div>
-			<div class="user-component__column">
-				<span>2</span>
-				<i class="fas fa-chevron-right fa-xs"></i>
-			</div>
-		</div>
-	</div>
-</main>
-
-<nav class="nav">
-	<ul class="nav__list">
-		<li class="nav__btn">
-			<a class="nav__link" href="friends.html"
-			><i class="far fa-user fa-2x"></i
-			></a>
-		</li>
-		<li class="nav__btn">
-			<span class="nav__notification">1</span>
-			<a class="nav__link" href="#"><i class="fa-solid fa-comment fa-2x"></i></a>
-		</li>
-		<li class="nav__btn">
-			<a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
-		</li>
-		<li class="nav__btn">
-			<span class="nav__notification nav__notification--sm"></span>
-			<a class="nav__link" href="more.html"
-			><i class="fas fa-ellipsis-h fa-2x"></i
-			></a>
-		</li>
-	</ul>
-</nav>
-</body>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <span class="nav__notification badge">1</span>
+          <a class="nav__link" href="chats.html"
+            ><i class="fa-solid fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-regular fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <span class="nav__notification nav__notification--sm"></span>
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>
